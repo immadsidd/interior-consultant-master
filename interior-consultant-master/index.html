@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+ <link rel="stylesheet" href="style.css">
+ <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="site">This Interior</div>
+    <div class="menu">
+      <nav>
+      <a href="#">Home</a>
+      <a href="#">Collection</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </div>
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#">Home</a>
+      <a href="#">Collection</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  <span  class="cc" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+  </script>
+
+  <table>
+    <tr>
+      <td><h1>Modern interior</h1></td>
+    </tr>
+    <tr>
+      <td><p>A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services</p></td>
+    </tr>
+    <tr>
+      <td><h3>Read more</h3></td>
+    </tr>
+  </table>
+   <div class="img"></div>
+
+   <div class="box">
+    <div class="flexbox">
+    
+    <img src="photo2.png" alt="" class="img2">
+    <div class="details">
+    <p class="imgname">Aliza Webber </p>
+    <p class="designaton"> interior Designer </p>
+  </div>
+  </div>
+  
+    <div class="design"> Designed in 2020 by Aliza Webbe</div>
+  </div>
+
+  <div class="footer">created by Immad Siddiqui - devChallenges.io</div>
+    
+  
+  </body>
+</html>

@@ -1,0 +1,290 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.cc{
+    display: none;
+}
+
+.overlay {
+
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+.site {
+    padding-top: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 102px;
+    height: 32px;
+    left: 77px;
+    top: 25px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 200;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.menu{
+    float: right;
+    margin-top: 25px;
+
+}
+
+a{
+
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+    padding: 20px 40px 20px 40px;
+    color: white;
+    text-decoration: none;
+   
+}
+
+a:hover{
+
+font-weight: 700;
+text-decoration: underline;
+text-underline-offset: 10px;
+}
+
+table h1{
+    font-family: 'Lora';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+
+}
+
+table p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+
+
+}
+
+table h3{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+
+}
+table{
+    position: absolute;
+height: 61px;
+left: 77px;
+top: 200px;
+    width: 410px;
+}
+
+.img{
+    background-size: contain;
+    position: absolute;
+    width: 700px;
+    height: 450px;
+    left: 780px;
+   top: 170px;
+   background-image: url(photo1.png);
+
+}
+
+.flexbox{
+    display: flex;
+   
+}
+.img2{
+    border-radius: 100%;
+    width: 85px;
+    height: 72px;
+}
+.details .imgname{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px
+
+
+}
+.details .designation{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #828282;
+
+}
+.box{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 1000px;
+    top: 560px;
+    padding: 30px;
+    
+    background: #181719;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.details{
+    padding-left: 20px;
+}
+.design{
+    width: 280px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    padding: 10px;
+
+}
+
+.footer{
+    position: absolute;
+width: 400px;
+height: 17px;
+left: 577px;
+top: 950px;
+padding-bottom: 20px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+}
+
+
+@media screen and (max-width:500px){
+
+    .cc{
+        display: block;
+        position: absolute;
+        left:  450px;
+    }
+
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+    
+
+    .site{
+        position: absolute;
+        width: 103px;
+        height: 31px;
+        left: 12px;
+        top: 19px;
+        
+        
+    }
+    
+    .menu{
+        display: none;
+    }
+
+    table{
+        justify-content: center;
+        position: absolute;
+       width: 350px;
+        height: 46px;
+
+    }
+
+    table h1{
+        font-size: 36px;
+    }
+
+    table h3 p{
+        font-size: 14px;
+    }
+
+    .img{
+        position: absolute;
+width: 100%;
+height: 279.34px;
+left: 10px;
+top: 500px;
+margin: auto;
+    }
+
+    .box{
+        width: 240px;
+        left: 80px;
+        top: 720px;
+    }
+    .details .imgname .designation{
+        font-size: 12px;
+    }
+
+    .design{
+        font-size: 18px;
+    }
+    .footer{
+        position: absolute;
+width: 400px;
+height: 17px;
+left: 44px;
+top: 980px;
+
+
+font-size: 12px;
+
+    }
+}
