@@ -10,7 +10,7 @@
 
 
 
-## Contact
 
-- Website [Preview](interior-consultant-master/index.html)
+
+- Website [Preview](https://immadsidd.github.io/interior-consultant-master/interior-consultant-master/index.html#)
 
