@@ -120,6 +120,7 @@ font-size: 18px;
 }
 table{
     position: absolute;
+    
 height: 61px;
 left: 77px;
 top: 200px;
@@ -241,7 +242,7 @@ text-align: center;
 
     table{
         position:absolute;
-        top:200px
+        top:200px;
         justify-content: center;
         position: absolute;
        width: 350px;
